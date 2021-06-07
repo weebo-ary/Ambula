@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "postbuild": "next-sitemap",
-    "export" : "npm run build  && next export"
+    "export" : "next export"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
